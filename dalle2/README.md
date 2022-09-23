@@ -1,17 +1,3 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="test.css">
-  </head>
-  <body>
-    <div class="card-category">
-      Dall-E 2
-    </div>
-  <body>
-</html>
-
-<br>
-<br>
-
 # Table of Contents
 
 <br>
