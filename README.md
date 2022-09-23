@@ -33,5 +33,8 @@
     </h1>
     <p>
         In this cookbook, I will explore a bunch of parameters and hacks to generate and manipulate images using Dalle 2 and/or MidJourney.
+        <br>
+        <br>
+        You can check that info on <a>this website</a>.
     </p>
 </div>
