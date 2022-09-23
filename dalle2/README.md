@@ -4,8 +4,8 @@
 <br>
 
  - Introduction
-   - [Preface]("dalle2/sections/introduction/preface.md")
-   - [Prompt Design]("dalle2/sections/introduction/prompt-design.md")
+   - [Preface](sections/introduction/preface.md)
+   - [Prompt Design](sections/introduction/prompt-design.md)
 
 <br>
 <br>
