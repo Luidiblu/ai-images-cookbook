@@ -1,11 +1,10 @@
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/Luidiblu/ai-images-cookbook/master/dalle2/images/sketch.png); background-size: cover; background-position: center; height: 180px; display: flex; justify-content: center; align-items: center; color: white; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 5px; box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+  Dall-E 2
+</div>
+<br>
+<br>
+
 # Table of Contents
-<br>
-<br>
-
-
-<div>
-  <img source="iamges/sketch.png" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/sketch.png); background-size: cover; background-position: center; height: 180px; display: flex; justify-content: center; align-items: center; color: white; font-size: 24px; font-weight: bold; text-shadow: 1px 1px 3px rgba(0,0,0,0.2); border-radius: 5px; box-shadow: 0 0 15px rgba(0,0,0,0.2)">
-</div.>
 
 <br>
 <br>
