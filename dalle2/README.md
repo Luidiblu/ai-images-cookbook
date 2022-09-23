@@ -2,7 +2,7 @@
 <br>
 <br>
 
-<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/sketch.png)">
+<div class="card-category" style="background-image: url(images/sketch.png)">
   Introduction
 </div>
 
