@@ -9,7 +9,7 @@
 <table width="100%" align="center">
     <tr>
         <td align="center">
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+            <a href="dalle2/README.md">
             <strong>Dalle 2</strong>
             <br />
             <br />
@@ -17,12 +17,10 @@
             </a>
         </td>
         <td align="center">
-            <a href="https://luidiblu.com">
             <strong>MidJourney (cooming soon)</strong>
             <br />
             <br />
             <p><img alt="Globe" height="100" src="images/midjourney.png"></p>
-            </a>
         </td>
     </tr>
 </table>
