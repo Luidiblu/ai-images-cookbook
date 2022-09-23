@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="test.css">
 
 <div class="card-category">
   Dall-E 2
