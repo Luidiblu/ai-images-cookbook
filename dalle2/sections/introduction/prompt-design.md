@@ -63,6 +63,6 @@ For 2D art, we've gone a little deeper, looking at particular art styles and art
 
 <div align="center">
 
-[--> Return to table of contents <--]("../../../../README.md") Or [--> Next Chapter: General Vibes <--]("../../../../README.md")
+[--> Return to table of contents <--]("../../../../README.md") | [--> Next Chapter: General Vibes <--]("../../../../README.md")
 
 </div>
