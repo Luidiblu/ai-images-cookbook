@@ -4,8 +4,8 @@
 <br>
 
  - Introduction
-   - [Preface](sections/introduction/preface.md)
-   - [Prompt Design](sections/introduction/prompt-design.md)
+   - [Preface](https://github.com/Luidiblu/ai-images-cookbook/tree/master/dalle2/sections/introduction#what-is-dall-e-2)
+   - [Prompt Design](https://github.com/Luidiblu/ai-images-cookbook/tree/master/dalle2/sections/introduction#prompt-design)
 
 <br>
 <br>
