@@ -1,30 +1,183 @@
-<html>
-    <head>
-        <title>AI Cookbook</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
-        <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)), url(img/sketch.png);">
-            <div class="container">
-              <h1>Welcome to my <strong style="color: lightseagreen;">AI Image Manipulation Cookbook</strong>!</h1>
-              <p>In this cookbook, I will explore a bunch of parameters and hacks to generate and manipulate images<br>
-                using <strong>Dall-E 2</strong> or <strong>MidJourney</strong>.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>AI Cookbook</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+      <!--Main Navigation-->
+  <header>
+    <style>
+      #intro {
+        background-image: url("img/bg-image.png");
+        height: 100vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" target="_blank" href="/">
+          <strong>Home</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/Luidiblu/" rel="nofollow" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">AI Images Cookbook</h1>
+            <h5 class="mb-4">Chose which AI do you want learn how to generate images with.</h5>
+            <a class="btn btn-outline-light btn-lg m-2" href="/" target="_blank">Dall·E 2</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="/" target="_blank">MidJourney</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+              <img src="img/sketch.png" class="img-fluid" />
+              <a href="#!">
+                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+              </a>
             </div>
           </div>
-          <h1 style="font-size:24pt; text-align: center; padding: 5%; color: white;">Which AI do you know better?</h1>
-          <div class="cards">
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/banner-dalle.png)">
-              Dall-E 2
-            </div>
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/banner-midjourney.png)">
-              MidJourney
-            </div>
-          </div>          
-          <div class="footer">
-            <div class="footer-copyright">
-              <p style="font-size: 12px; text-align: center; color: white;">Created by @Luidiblu</p>              
+
+          <div class="col-md-6 gx-5 mb-4">
+            <h4><strong>Purpose</strong></h4>
+            <p class="text-muted">
+              The incredible ability of artificial intelligence to generate images from data is something that has been impressing more and more. <br>
+              This power has the potential to revolutionize various sectors, and we are only at the beginning of this journey. <br><br>
+              My research focuses on exploring this potential in the area of images. Documentation is essential for any type of research and serves as a record of discoveries, in addition to allowing others to use artificial intelligence to generate images from data.  <br><br>
+              With the advancement of technology, I hope we can discover more and more about the benefits of artificial intelligence in images and see its use spread throughout all sectors of society.  
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="text-center">
+        <h4 class="mb-5"><strong>Recommended Services</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/dalle-card.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Dall·E 2</h5>
+                <p class="card-text">
+                  DALL·E 2 has learned the relationship between images and the text used to describe them. It uses a process called “diffusion,” which starts with a pattern of random dots and gradually alters that pattern towards an image when it recognizes specific aspects of that image.
+                </p>
+                <a href="https://openai.com/dall-e-2/" target="_blank" class="btn btn-primary">Visit</a>
+              </div>
             </div>
           </div>
-    </body>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/midjourney-card.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">MidJourney</h5>
+                <p class="card-text">
+                  MidJourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species. They are a small self-funded team focused on design, human infrastructure, and AI. They have 11 full-time staff and an incredible set of advisors.
+                </p>
+                <a href="https://www.midjourney.com/" target="_blank" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/fakeyou-card.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">FakeYou</h5>
+                <p class="card-text">
+                  FakeYou is a demonstration of how far computers have caught up. One day computers will be able to bring all of the rich and vivid imagery of your hopes and dreams to life. There's never been a better time throughout all history to be a creative than now. <br><br>
+                </p>
+                <a href="https://fakeyou.com/" target="_blank" class="btn btn-primary">Visit</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="bg-light text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="https://www.github.com/Luidiblu">Luidiblu</a>
+    </div>
+  </footer>
+</body>
 </html>
